@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Portafolio Juan Niño</title>
+    <link rel="icon" href="./assets/css/image/gummy-programming.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div id="navMenu" class="menu">
+        <ul class="menu__list">
+          <li><a class="menu__link" href="#principal" data-es="Inicio" data-en="Home">Inicio</a></li>
+          <li><a class="menu__link" href="#about-me" data-es="Sobre Mí" data-en="About Me">Sobre Mí</a></li>
+          <li><a class="menu__link" href="#Projects" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+          <li><a class="menu__link" href="#reviews" data-es="Reseñas" data-en="Reviews">Reseñas</a></li>
+          <li><a class="menu__link" href="#contacts" data-es="Contactos" data-en="Contact us">Contactos</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          Idioma
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#" data-lang="es">Español</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header id="principal" class="body__header header hero">
+      <article class="header__article article">
+        <section class="article__section">
+          <h1 class="article__h1">
+            Juan Niño
+            <span class="article__span" 
+            data-es="Desarrollador Junior FullStack y diseñador de videojuegos" 
+            data-en="‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Junior FullStack Developer And Game Designer">Desarrollador Junior FullStack y diseñador de videojuegos</span>
+          </h1>
+          <p class="article__p" data-es="Desarrollador Junior FullStack, estoy preparado para crecer y destacar en el mundo de la programación y los videojuegos" data-en="Junior FullStack developer, I’m ready to grow and excel in the world of programming and video games">
+            Desarrollador Junior FullStack, estoy preparado para crecer y destacar en el mundo de la programación y los videojuegos
+          </p>
+        </section>
+        <figure class="figure__article">
+          <img
+            class="header__img"
+            src="https://www.web24zone.com/wp-content/uploads/2022/10/46207-programmer-1.gif"
+            alt="Imagen"
+          />
+        </figure>
+      </article>
+    </header>
+    <main>
+      <section class="section__about" id="about-me">
+        <h1 class="about__h1" data-es="Sobre Mí" data-en="About Me">Sobre Mí</h1>
+        <h2 class="about__h2" data-es="Un poco sobre mí" data-en="A little bit about me">Un poco sobre mí</h2>
+        <p class="about__p" 
+        data-es="Soy un apacionado por la programación y el disñeo de videojuegos con 18 años. Estudie un tecnico en videojuegos y actualmente estoy estudiando programacion en Academlo." 
+        data-en="I am an 18-year-old game programmer and designer. I studied as a video game technician and currently study programming at Academlo.">
+          Soy un apacionado por la programación y el disñeo de videojuegos con 18 años. Estudie un tecnico en videojuegos y actualmente estoy estudiando programacion en Academlo.
+        </p>
+      </section>
+      <article class="article__habilities">
+        <h2 class="habilities__h2" data-es="Habilidades" data-en="Skills">Habilidades</h2>
+        <section class="section__habilities">
+                <button class="left" id="prev-btn"><i class='bx bx-chevron-left left'></i></button>
+                <div class="slider-container">
+                    <i id="slider-icon" class="bx"></i>
+                    <label id="title"></label>
+                 </div>
+                <div class="buttons">
+                    <button class="right" id="next-btn"><i class='bx bx-chevron-right right'></i></button>
+                </div>
+        </section>
+      </article>
+      <article class="article_projects" id="Projects">
+        <h2 class="projects__h2" data-es="Proyectos" data-en="Projects">Proyectos</h2>
+        <div class="card-group">
+          <div class="card">
+            <img 
+            src="/assets/css/image/Proximamente.png" 
+            data-es="/assets/css/image/Proximamente.png"
+            data-en="/assets/css/image/ComingSoon.png"
+            class="card-img-top" alt="...">
+            <div class="card-body">
+              </small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/assets/css/image/Proximamente.png" 
+            data-es="/assets/css/image/Proximamente.png"
+            data-en="/assets/css/image/ComingSoon.png"
+            class="card-img-top" alt="...">
+          </div>
+          <div class="card">
+            <img src="/assets/css/image/Proximamente.png" 
+            data-es="/assets/css/image/Proximamente.png"
+            data-en="/assets/css/image/ComingSoon.png"
+            class="card-img-top" alt="...">
+          </div>
+        </div>
+      </article>
+      <section id="reviews">
+        <h2 class="review__h2" data-es="Reseñas" data-en="Reviews">Reseñas</h2>
+        <div class="review__images">
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/assets/css/image/carrusel-img-1.jpg" 
+                data-es="/assets/css/image/carrusel-img-1.jpg"
+                data-en="/assets/css/image/carrusel-img-1En.png"
+                class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="/assets/css/image/carrusel-img-2.jpg" 
+                data-es="/assets/css/image/carrusel-img-2.jpg"
+                data-en="/assets/css/image/carrusel-img-2En.png"
+                class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/css/image/carrusel-img-3.jpg" 
+                data-es="/assets/css/image/carrusel-img-3.jpg"
+                data-en="/assets/css/image/carrusel-img-3En.png"
+                class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <article class="article__contact">
+        <h2 class="contact__h2" data-es="Contactame" data-en="Contact me">Contactame</h2>
+        <p class="contact__p" data-es="¡Contactame a traves de este formulario para trabajar conmigo en tu proyecto de empresa o lo que desees.¡" data-en="¡Contact me through this form to work with me on your business project or whatever you want.!">¡Contactame a traves de este formulario para trabajar conmigo en tu proyecto de empresa o lo que desees.¡</p>
+        <section class="section__form">
+          <form id="contacts" class="form__contact">
+            <label class="label__contact" data-es="Nombre" data-en="Name">
+                Nombre
+                <input class="input__contact" type="text" name="name" id="name">
+            </label>
+            <label class="label__contact">
+                Email
+                <input class="input__contact" type="email" name="email" id="email">
+            </label>
+            <label class="label__contact" data-es="Mensaje" data-en="Message">
+                Mensaje
+                <textarea class="message__contact" name="message" id="message"></textarea>
+            </label>
+            <button class="button__contact" data-es="Enviar" data-en="Send" type="button" onclick="enviarFormulario()">Enviar</button>
+        </form>
+        </section>
+      </article>
+    </main>
+    <footer class="container__footer">
+      <p class="footer__p" data-es="Derechos Reservados" data-en="Copyright">&copy; Derechos Reservados</p>
+    </footer>
+  </body>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
